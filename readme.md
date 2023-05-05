@@ -58,3 +58,15 @@ git log (para ver el local repo, "la caja de fotos")
 
 ´´´
 git log --oneline (me da la foto pero de forma resumida)
+
+## Para pasar el archivo del area de transición al WD
+
+´´´
+git restore --staged (nombre del archivo)
+
+## Para eliminar los cambios guardados del WD 
+
+´´´
+git restore (nombre del archivo)
+
+## Mientras tanto no podemos vovler del LR con los cambios del archivo
