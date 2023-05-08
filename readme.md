@@ -70,3 +70,16 @@ git restore --staged (nombre del archivo)
 git restore (nombre del archivo)
 
 ## Mientras tanto no podemos volver del LR con los cambios del archivo
+
+...
+## Clase 16
+...
+
+## .gitignore 
+Este archivo me sirve para ignorar carpetas o archivos que no quiero que sean parte del repositorio. Normalmente va sobre la raíz del proyecto
+
+Para eso necesito crear el archivo **.gitignore**
+
+´´´hs
+touch .gitignore
+´´´
