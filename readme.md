@@ -69,4 +69,4 @@ git restore --staged (nombre del archivo)
 ´´´
 git restore (nombre del archivo)
 
-## Mientras tanto no podemos vovler del LR con los cambios del archivo
+## Mientras tanto no podemos volver del LR con los cambios del archivo
