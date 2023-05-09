@@ -2,16 +2,15 @@
 
 ## Configuración inicial
 
-´´´sh
+```sh
 git config --global user.name "Franco Hidalgo"
 git config --global user.email "francohidalgo2016@gmail.com"
-
-´´´
+```
 ## CREAR un repositorio (inicializar un repositorio)
 
-´´´sh
+```sh
 git init
-´´´
+```
 
 ## Areas del repositorio de GIT
 
@@ -35,51 +34,65 @@ git init
 
 ## Saber el estado actual de los archivos (comando)
 
-´´´
+```
 git status
-´´´
+```
 ## Voy a  poder mover los archivos del WD al SA
 
-´´´sh
+```sh
 git add (nombre del archivo)
 ej. git add index.html
 git add . (con este comando agrego a todos los archivos que están untracked o unmodified)
+```
 
 
 ## Para "tomar la foto" y pasar el archivo del area de transición al LR
 
-´´´
+```
 git commit -m "Descripción de lo que subo, breve"
-´´´
+```
 
-´´´
+```
 git log (para ver el local repo, "la caja de fotos")
-´´´
+```
 
-´´´
+```
 git log --oneline (me da la foto pero de forma resumida)
-
+```
 ## Para pasar el archivo del area de transición al WD
 
-´´´
-git restore --staged (nombre del archivo)
+```sh
+git restore --staged nombre del archivo
+```
 
 ## Para eliminar los cambios guardados del WD 
+``` 
 
-´´´
 git restore (nombre del archivo)
+```
+
+```
 
 ## Mientras tanto no podemos volver del LR con los cambios del archivo
 
-...
 ## Clase 16
-...
 
 ## .gitignore 
 Este archivo me sirve para ignorar carpetas o archivos que no quiero que sean parte del repositorio. Normalmente va sobre la raíz del proyecto
 
 Para eso necesito crear el archivo **.gitignore**
 
-´´´hs
+```sh
 touch .gitignore
-´´´
+```
+
+## Agrego a mi repo local la url del repo remoto
+
+```sh
+git remote add origin https://github.com/FrancoHidalgoIT/bootcamp-educit-lu-jue.git
+```
+
+### Visualizar si se agregó o que url tengo agregada 
+```sh
+git remote -v
+```
